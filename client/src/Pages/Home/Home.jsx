@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import "./Home.css";
 import { useNavigate } from 'react-router-dom';
-axios.defaults.baseURL = 'https://localhost:3000/';
+axios.defaults.baseURL = 'https://student-attendance-ten.vercel.app/';
 
 
 const Home = () => {
