@@ -5,7 +5,7 @@ function StudentsList() {
   const [students, setStudents] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3000/')
+    axios.get('https://student-attendance-ten.vercel.app/')
       .then(response => {
         setStudents(response.data);
       })
