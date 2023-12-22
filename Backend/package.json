@@ -8,7 +8,7 @@
     "dev": "nodemon index.js"
     
   },  
-  "author": "omkore",
+  "author": "somkore",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
